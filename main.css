@@ -1,0 +1,277 @@
+/*RESET E ESTILOS GLOBAIS*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    background-color: peachpuff;
+    font-family: "Neucha", cursive;
+    text-decoration: none;
+}
+
+/*CONFIGURAÇÃO HEADER*/
+header {
+    padding: 24px 0;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .logo img {
+    padding-right: 5px;
+    width: 80px;
+}
+
+header .container h1 {
+    font-family: "Shojumaru", system-ui;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+    color: rgb(90, 0, 0);
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ,.container li {
+    display: inline;
+    margin: 12px;
+    font-family: "Neucha", cursive;
+    font-size: 30px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+header .container li a {
+    color: rgb(0, 0, 0);
+}
+
+header .container li a:hover {
+    color: rgb(180, 0, 0);
+}
+
+.imagem-topo img {
+    align-items: center;
+    box-shadow: 0px 5px 20px #000;
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+    height: 600px;
+}
+
+.assine button {
+    border: none;
+    cursor: pointer;
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin: 8px;
+    color: rgb(90, 0, 0);
+    font-size: 30px;
+}
+
+.assine  button:hover {
+   color: rgb(255, 119, 0);
+}
+
+/*CONFIGURAÇÃO PÁGINA SOBRE*/
+section .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+section {
+    padding: 24px 0;
+}
+
+.iruka-naruto {
+    margin-right: 32px;
+    width: 550px;
+}
+
+.foto-teuchi {
+    margin-right: 32px;
+    margin-bottom: 32px;
+    height: 400px;
+}
+
+.ichiraku-original {
+    margin-right: 32px;
+    margin-bottom: 32px;
+    width: 550px;
+}
+
+section h2 {
+    font-family: "Shojumaru", system-ui;
+    color: rgb(90, 0, 0);
+    font-size: 30px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+/*CONFIGURAÇÃO PÁGINA RECEITAS*/
+#receitas,
+#receitas .receitas-links,
+#receitas .articles,
+#receitas .articles article,
+#receitas .articles article a,
+#receitas h2 {
+    background-color: #ffffff;
+}
+
+section .receitas-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article a {
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a:hover {
+    color: rgb(180, 0, 0);
+}
+
+/*CONFIGURAÇÃO PÁGINA VÍDEOS*/
+section .vídeos-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.articles article video {
+    width: 100%;
+}
+
+.articles article {
+    width: 30%;
+}
+
+.articles article a {
+    color: black;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.articles article a:hover {
+    color: rgb(180, 0, 0);
+}
+
+/*CONFIGURAÇÃO PÁGINA CONTATO*/
+.social-links img {
+    height: 50px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-forms {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 100px;
+}
+
+section h3 {
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+form button {
+    background-color: rgb(90, 0, 0);
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(255, 119, 0);
+}
+
+input:focus,
+textarea:focus {
+    outline-color: rgb(90, 0, 0);
+}
+
+/*CONFIGURAÇÃO RODAPÉ*/
+footer,
+footer .container p {
+    font-family: "Neucha", cursive;
+    font-weight: 400;
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+    background-color: rgb(90, 0, 0);
+    text-align: center;
+    padding: 16px 0;
+}
